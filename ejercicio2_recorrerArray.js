@@ -14,7 +14,7 @@ const capitalNames = [
     "Moscu"
   ];
   
-  const capitalNameCh = function (name) {
+  const capitalNameCh = function () {
     for (let i of capitalNames) {
       console.log(i);
     }
@@ -34,7 +34,7 @@ const capitalNames = [
     "Moscu"
   ];
   
-  const capitalNameChecker = function (name) {
+  const capitalNameChecker = function () {
     capitalNamees.forEach(function (names) {
       console.log(names);
     });
